@@ -1,0 +1,61 @@
+
+.pics-list{
+    width: 100%;
+    height: 26vh;
+    background-color: rgb(245, 243, 243);
+    margin-top: 20px;
+}
+.pics-list ul{
+    list-style: none;
+    display: flex;
+}
+.pics-list ul li{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 13px;
+}
+.pics-list ul li:hover{
+    color: #f85606;
+}
+.piclist-vertical{
+    border-left: 2px solid rgb(232, 223, 223);
+    height: 60px;
+    margin: 40px 30px;
+
+}
+
+
+@media  only screen and (max-width:550px) {
+    .pics-list{
+        width: 100%;
+        height: 30vh;
+        background-color: rgb(247, 245, 243);
+        margin-top: 10px;
+    }
+    .pics-list ul{
+        list-style: none;
+        display: flex;
+    }
+    .pics-list ul li{
+        padding-left: 10px;
+        padding-top: 20px;
+        text-align: center;
+    }
+    .pics-list ul li:hover{
+        transform: scale(1.03);
+        color:rgb(173, 58, 58);
+    }
+}
+
+
+h1{
+    font-family: Roboto-Regular;
+    font-size: 22px;
+    color: #575151;
+    width: 220px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: 400;
+    margin-top: 25px;
+}

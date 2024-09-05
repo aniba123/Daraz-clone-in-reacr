@@ -1,0 +1,97 @@
+.main-class{
+    width: 95%;
+    margin: auto;
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.main-class ul{
+    list-style: none;
+    margin-top: 5px;
+}
+.main-class ul li{
+padding: 2px;
+}
+.main-class ul li a{
+    text-decoration: none;
+    color: black;
+} 
+.main-class ul li a:hover{
+    text-decoration: underline;
+}
+h2{
+    font-weight: 400;
+    color: #f85606;
+    padding-left: 10px;
+    padding-top: 20px;
+    margin-left: -10px;
+}
+.learn-more{
+    width: 30%;
+    height: 6vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 60px;
+    margin-left: 450px;
+    border: 1px solid  rgb(252, 60, 7);
+    font-size: large;
+}
+.learn-more a{
+    color: rgb(92, 86, 86);
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.learn-more a:hover{
+    color: #d7a156;
+}
+.costumer-care{
+    width: 25%;
+    height: 65vh;
+    font-size:15px;
+}
+.costumer-care ul li{
+    padding-left: 20px;
+}
+.daraz{
+    width: 25%;
+    height: 65vh;
+    font-size:15px;
+}
+.darazinter{
+    width: 28%;
+    height: 65vh;
+    color: black;
+}
+.darazinter ul{
+    display: flex;
+}
+.darazinter  ul li img{
+    display: inline-block;
+    width: 32%;
+    height: 6vh;
+    border-radius: 50%;
+}
+.darazinter ul li:hover{
+    text-decoration: underline;
+}
+.flag{
+    display: flex;
+    align-items:center;
+}
+.exclusive{
+    font-size:15px;
+    width: 25%;
+    height: 65vh;
+}
+@media only screen and (max-width:550px) {
+    .main-class{
+        display: none;
+    }
+}

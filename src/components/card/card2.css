@@ -1,0 +1,18 @@
+.card2-main{
+    background-color: rgb(247, 245, 243);
+}
+.card2-self{
+    width: 187px;
+    margin: 5px;
+}
+.card2-main:hover{
+    transform: scale(1.01);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.cut{
+    text-decoration: line-through;
+    color: darkgray;
+}
+.div-text{
+    padding: 10px;
+}

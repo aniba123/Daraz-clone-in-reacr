@@ -1,0 +1,31 @@
+
+.simage{
+    width: 100%;
+    margin-top: 12px;
+}
+.self-image{
+    width: 100%;
+    height: 25vh;
+
+}
+.home-small-line{
+    width: 100%;
+    height: 7.5vh;
+    background-color: aqua;
+    margin-top: 15px;
+    font-family: Roboto-Regular, 'Helvetica Neue', Helvetica, Tahoma, Arial, Sans-serif;
+    background-color: #f0e2e2;
+    color: #999;
+}
+.home-small-line:hover{
+    background-color: #dbbfbf;
+}
+.home-small-line ul{
+    list-style: none;
+    display: flex;
+    
+}
+.home-small-line ul li{
+    padding: 8.5px;
+    display: flex;
+}
